@@ -12,7 +12,8 @@
 
 在您通过系统授权弹窗明确同意后，本应用通过 Apple HealthKit 访问以下数据：
 
-- **读取**：活动能量（卡路里）、锻炼时间、心率、静息心率、心率变异性（HRV）。
+- **读取（活动与心脏数据）**：活动能量（卡路里）、锻炼时间、活动摘要（健身记录圆环）、心率、静息心率、心率变异性（HRV）、最大摄氧量（心肺适能）。
+- **读取（个人特征资料）**：出生日期、生理性别——仅用于在设备本机估算「身体年龄」（见下文用途第 5 条），不作任何其他用途。
 - **写入**：您在 Apple Watch 上使用本应用主动记录的体能训练会写入健康 App，与系统运动记录保持一致。
 
 **收集方式**：活动能量在您打开应用或进行锻炼时读取，实时心率仅在您用本应用记录锻炼的过程中读取；**静息心率与 HRV 通过 HealthKit 的后台更新机制收集**——当健康 App 中出现新样本时，系统会在本应用未处于前台时唤醒它读取该样本，以便压力状态与表盘显示保持最新。全部读取均以您的系统授权为前提，您撤销授权后后台读取随之停止。
@@ -25,10 +26,11 @@
 
 以上数据仅用于本应用的功能本身：
 
-1. 根据活动能量和心情记录计算积分，驱动宠物的成长与进化；
+1. 根据活动能量和心情记录计算经验值，驱动宠物的成长与进化；
 2. 显示今日运动概况和活力值；
 3. 基于您个人的 HRV / 静息心率基线估算压力状态；
-4. 在您开启心率区间提醒后，锻炼过程中依据实时心率在 Apple Watch 上发出本地通知（提醒完全在设备本地生成，不经过任何服务器）。
+4. 在您开启心率区间提醒后，锻炼过程中依据实时心率在 Apple Watch 上发出本地通知（提醒完全在设备本地生成，不经过任何服务器）；
+5. 结合最大摄氧量、出生日期与生理性别，在设备本机估算并显示「身体年龄」（一项趣味性的体能参考指标，不构成任何医疗建议）。
 
 ## 三、数据的存储、流转与共享
 
@@ -77,7 +79,7 @@ This is a translation of the Simplified Chinese policy above; in case of any dis
 
 ## Data we access and how it is collected
 
-With your explicit permission via the system HealthKit prompt, the app **reads** active energy, exercise time, heart rate, resting heart rate, and heart-rate variability (HRV), and **writes** workouts you actively record with the app on Apple Watch to the Health app.
+With your explicit permission via the system HealthKit prompt, the app **reads** active energy, exercise time, activity summary (Activity rings), heart rate, resting heart rate, heart-rate variability (HRV), and VO2 max (cardio fitness), plus two profile characteristics — **date of birth and biological sex, used solely to estimate your "fitness age" on-device** (see use (5) below) and for nothing else. It **writes** workouts you actively record with the app on Apple Watch to the Health app.
 
 **How it is collected**: active energy is read when you open the app or record a workout; live heart rate is read only while you are recording a workout with the app. **Resting heart rate and HRV are collected via HealthKit background updates** — when a new sample appears in the Health app, the system may wake the app in the background to read it, so your stress state and watch face stay current. All reads require your system authorization; revoking it also stops background reads.
 
@@ -85,7 +87,7 @@ The app also stores mood entries you log inside the app. Beyond the above, the a
 
 ## How the data is used
 
-Solely for in-app features: (1) computing points from active energy and mood entries to drive your pet's growth and evolution; (2) showing today's activity and vitality; (3) estimating a stress score against your own HRV / resting-heart-rate baseline; and (4) if you enable heart-rate zone alerts, delivering local notifications on Apple Watch during a workout based on your live heart rate (generated entirely on-device, never via any server).
+Solely for in-app features: (1) computing experience points from active energy and mood entries to drive your pet's growth and evolution; (2) showing today's activity and vitality; (3) estimating a stress score against your own HRV / resting-heart-rate baseline; (4) if you enable heart-rate zone alerts, delivering local notifications on Apple Watch during a workout based on your live heart rate (generated entirely on-device, never via any server); and (5) estimating and displaying a "fitness age" on-device from your VO2 max, date of birth, and biological sex (a playful fitness reference, not medical advice).
 
 ## Storage and sharing
 
@@ -111,4 +113,3 @@ If this policy changes materially, we will update this page and revise the effec
 
 Data controller: Yang Jin (individual developer)
 Email: **779182165@qq.com**
-
