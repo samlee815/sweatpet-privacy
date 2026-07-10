@@ -4,7 +4,7 @@
 
 本隐私政策适用于「汗堡包」iPhone 应用及其配套的 Apple Watch 应用与表盘复杂功能（以下合称「本应用」）。本应用是一款运动养成应用：您的日常运动让像素宠物成长进化。
 
-**个人信息处理者**：本应用由个人开发者 Yang Li 开发和运营（以下称「我们」），联系方式：yl4111@columbia.edu。
+**个人信息处理者**：本应用由个人开发者 Yang Jin 开发和运营（以下称「我们」），联系方式：779182165@qq.com。
 
 本政策说明本应用访问哪些数据、以何种方式收集、用于哪些用途、保存在哪里、保存多久，以及您如何行使您的权利。
 
@@ -58,8 +58,8 @@
 
 ## 八、联系我们
 
-个人信息处理者：个人开发者 Yang Li
-联系邮箱：**yl4111@columbia.edu**
+个人信息处理者：个人开发者 Yang Jin
+联系邮箱：**779182165@qq.com**
 
 本政策以中文、英文两种语言提供；如两种版本存在歧义，以简体中文版本为准。
 
@@ -71,7 +71,7 @@
 
 This policy covers the Sweatpet (汗堡包 / WorkoutBuddy) iPhone app, its companion Apple Watch app, and its watch-face complication (together, "the app"). The app is a fitness companion in which your daily activity raises a pixel pet.
 
-**Data controller**: the app is developed and operated by Yang Li, an individual developer ("we"). Contact: yl4111@columbia.edu.
+**Data controller**: the app is developed and operated by Yang Jin, an individual developer ("we"). Contact: 779182165@qq.com.
 
 This is a translation of the Simplified Chinese policy above; in case of any discrepancy, the Simplified Chinese version prevails.
 
@@ -109,5 +109,6 @@ If this policy changes materially, we will update this page and revise the effec
 
 ## Contact
 
-Data controller: Yang Li (individual developer)
-Email: **yl4111@columbia.edu**
+Data controller: Yang Jin (individual developer)
+Email: **779182165@qq.com**
+
